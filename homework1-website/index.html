@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müzik Aletleri Satış Sitesi</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #E9ECEF;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+        .jumbotron {
+            background-color: #ffffff;
+            border-radius: 0;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menü -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Müzik Aletleri</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ürünlerimiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hakkımızda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Ana Sayfa Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Müzik Aletleri Satış Sitesine Hoşgeldiniz!</h1>
+        <p class="lead">En kaliteli müzik aletlerini en uygun fiyatlarla satın alın.</p>
+    </div>
+
+    <!-- Ürünlerimiz Sayfası -->
+    <div class="container">
+        <div class="row">
+            <!-- Ürün Kartı 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="product1.jpg" class="card-img-top" alt="Ürün 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ürün 1</h5>
+                        <p class="card-text">Bu ürün hakkında kısa bir açıklama.</p>
+                        <a href="#" class="btn btn-primary">Sepete Ekle</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Ürün Kartı 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="product2.jpg" class="card-img-top" alt="Ürün 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ürün 2</h5>
+                        <p class="card-text">Bu ürün hakkında kısa bir açıklama.</p>
+                        <a href="#" class="btn btn-primary">Sepete Ekle</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Ürün Kartı 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="product3.jpg" class="card-img-top" alt="Ürün 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Ürün 3</h5>
+                        <p class="card-text">Bu ürün hakkında kısa bir açıklama.</p>
+                        <a href="#" class="btn btn-primary">Sepete Ekle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hakkımızda Sayfası -->
+    <div class="container my-5">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Hakkımızda</h5>
+                <p class="card-text">Biz müzik aletleri konusunda uzman bir ekibiz. Müşterilerimize en iyi ürünleri sunmak için çalışıyoruz.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap ve jQuery JavaScript kütüphaneleri -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
